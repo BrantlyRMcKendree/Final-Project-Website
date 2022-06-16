@@ -1,0 +1,182 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+   */
+
+   /* HTML5 display-role reset for older browsers */
+   article, aside, details, figcaption, figure, 
+   footer, header, hgroup, menu, nav, section {
+    display: block;
+ 
+  }
+  blockquote, q {
+    quotes: none;
+  }
+
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+    content: '';
+    content: none;
+  }
+
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+/*=========================================
+    Main Styles
+    =========================================*/
+  
+    
+
+  body {
+  
+    background-image: url('http://bmckendree1560973.altervista.org/img/black-background.jpg');
+    background-size: auto;
+  }
+
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  top: 0em;
+  overflow: hidden;
+  background-image: linear-gradient(gray, black);
+  background-size: auto;
+  position: sticky;
+  overflow: hidden;
+  text-decoration: none;
+
+
+}
+
+ul.small {
+  font-variant: small-caps;
+
+}
+
+.about {
+  font-variant: small-caps;
+  color: orange;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 0%;
+}
+
+#aboutBio {
+  font-variant: small-caps;
+  color: orange;
+  text-align: center;
+  margin-top: 0%;
+  margin-bottom: 10%;
+  font-size: 40px;
+}
+
+.aboutDescription {
+  font-variant: 
+  color: orange;
+}
+
+#Quote {
+  text-align: center;
+}
+
+
+
+p.small {
+  font-variant: small-caps;
+  color: orange;
+  text-align: center;
+}
+
+
+
+li img {
+    width: 3em;
+    height: 3em;
+}
+
+
+a, a:link, a:visited {
+  color: orange;
+  text-decoration: none;
+  background-color: 000;
+  padding: .5em;
+  background-size: 2em;
+  font-size: 100%;
+}
+
+.elements { 
+  display: inline-block;
+  text-decoration: none;
+  
+
+}
+
+
+.active {
+  background-color: #000;
+}
+
+#leftPaneIndex {
+  float: left;
+  width: 50%;
+  padding-top: 5em;
+  margin: 0em;
+}
+
+#Socials {
+  float: left;
+  width: 100%;
+  padding-top: 5em;
+  margin: 0em;
+}
+
+
+
+.leftLogo {
+  height: 70%;
+  width: 70%;
+}
+
+.leftLogoSmall {
+  margin-left: 8em;
+  height: 2%;
+  width: 15%;
+}
+
+
+.border-box {
+  box-sizing: border-box;
+}
+
+#twitter-feed {
+  margin-top: 3.5em;
+  float: left;
+  width: 40%;
+  height: 45em;
+}
+
+.border-box {
+  box-sizing: border-box;
+}
+
+.timeline-Viewport {
+  width: 110px;
+  height: 110px;
+  overflow: auto;
+}
+
+iframe {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 92%;
+    width: auto;
+    height: auto;
+}
+
+
+
